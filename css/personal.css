@@ -1,0 +1,173 @@
+html,body{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: sans-serif;
+    overflow-x: hidden;
+    position: relative;
+    vertical-align: baseline;
+    /* background-color: rgb(216, 252, 253); */
+    background-image: linear-gradient(to bottom right, white, #459dfa);
+}
+
+.about,.skills,
+.education, .languages,
+.contact,.experience{
+    padding: 40px;
+    min-height: 330px;
+}
+
+.education, .languages,
+.contact,.experience{
+    margin-top: 30px;
+}
+
+header{
+    text-align: center;
+    min-height: 200px;
+    overflow: hidden;
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 80px;
+}
+
+header img{
+    display: inline-block !important;
+    /* border: 3px solid white; */
+    padding: 5px;
+}
+
+header h2{
+    padding-top: 5px;
+}
+
+.about{
+    background: white;
+    color: #333333;
+}
+
+.skills{
+    background: #446e9b;
+    color: white;
+}
+
+.skills h2{
+    color: white;
+}
+
+/* .skills .progress{
+    border-radius: 0px;
+    height: 4px;
+    color: dimgray;
+} */
+/* 
+.skilss .progress .progress-bar-primary{
+    background: #4263f5;
+} */
+
+.skills strong{
+    display: inline-block;
+    font-weight: normal;
+    padding-bottom: 6px;
+    color: white;
+}
+
+.education{
+    background: #446e9b;
+    color: white;
+}
+
+.education h2,h4,h5{
+    color: white;
+}
+
+/* #tec{
+    color: white;
+} */
+
+.education .education-content{
+    padding-bottom: 14px;
+}
+
+.education h5{
+    display: inline-block;
+}
+
+.education a{
+    color: #459dfa;
+}
+
+.education span{
+    margin-right: 10px;
+    padding-left: 20px;
+}
+
+.languages{
+    background: white;
+    margin-top: 20px;
+    color: #333333;
+}
+
+.languages ul{
+    padding: 10px;
+}
+
+.languages ul li{
+    padding-bottom: 6px;
+}
+
+.contact{
+    background: white;
+    color: #333333;
+}
+
+.contact a{
+    color: #0c54a0;
+}
+
+.experience{
+    background: #446e9b;
+    color: #333333;
+    /* padding-left: 14px; */
+}
+
+.experience h2{
+    color: white;
+}
+
+.experience-content{
+    padding-bottom: 14px;
+}
+
+.experience h5{
+    display: inline-block;
+}
+
+.experience span{
+    padding-right: 10px;
+    padding-left: 20px;
+}
+
+.experience-title{
+    margin-left: 15px;
+}
+
+.experience-subtitle{
+    margin-left: 15px;
+}
+
+
+
+
+
+.ownimg{
+    width: auto; 
+    height:300px;
+    border-radius: 50%;
+    border: none;
+}
+
+/* .ownimg:hover{
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+} */
